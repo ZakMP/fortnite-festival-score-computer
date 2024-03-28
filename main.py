@@ -1,7 +1,9 @@
 from Charts import butter_barn_hoedown
 
 def play_song(song):
-    print(song.chart)
+    #print(song.chart)
+    for x in song.chart:
+        print(x)
     return
 
 
