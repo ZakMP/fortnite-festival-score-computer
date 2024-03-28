@@ -1,8 +1,10 @@
-def play_song():
-    print(3)
+from Charts import butter_barn_hoedown
+
+def play_song(song):
+    print(song.chart)
     return
 
 
-play_song()
+play_song(butter_barn_hoedown)
 
 
